@@ -64,11 +64,10 @@ body {
 
 }
 
-
 .image-about h2 {
     font-weight: bold;
     color: white;
-    font-size: 65px;
+    font-size: 63px;
 }
 
 .image-about p {
@@ -115,5 +114,11 @@ body {
 .image-about p {
     color: white;
     text-align: justify;
+}
+
+.image-about h2 {
+    font-weight: bold;
+    color: white;
+    font-size: 65px;
 }
 }
