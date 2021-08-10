@@ -7,6 +7,9 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+#home .container {
+    margin-top: 70px;
+}
 .container .teks-atas h1{
     margin-top: 20px;
     font-weight: bold;
@@ -34,6 +37,44 @@ body {
     color: rgb(192, 192, 192);
 }
 
+#about {
+    padding-top: 4rem;
+}
+
+.judul::after{
+    content: "";
+    display:block;
+    border-bottom: 5px solid white;
+    width: 190px;
+    margin:auto  
+}
+
+.container .judul h1{
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.image-about{
+    margin-top: 20px;
+    text-align: center;
+}
+.image-about img {
+    width: 210px;
+
+}
+
+
+.image-about h2 {
+    font-weight: bold;
+    color: white;
+    font-size: 65px;
+}
+
+.image-about p {
+    color: white;
+    text-align: center;
+}
 
 @media (min-width: 576px) {
 
@@ -47,3 +88,32 @@ body {
 
 }
 
+@media (min-width: 992px){
+.image-about img {
+    width: 210px;
+    margin-top: 15px;  
+    margin-left: 0px;  
+    }
+.container .judul h1{
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    text-align: left;
+}
+.judul::after{
+    content: "";
+    display:block;
+    border-bottom: 5px solid white;
+    width: 190px; 
+    margin: 0;
+}
+.image-about{
+    margin-top: 20px;
+    text-align: left;
+}
+
+.image-about p {
+    color: white;
+    text-align: justify;
+}
+}
